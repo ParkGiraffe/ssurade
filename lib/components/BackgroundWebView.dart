@@ -6,8 +6,8 @@ import 'package:ssurade/globals.dart' as globals;
 import 'package:ssurade/types/Progress.dart';
 
 backgroundWebView() => SizedBox(
-      width: 1000,
-      height: 300,
+      width: 1,
+      height: 1,
       child: InAppWebView(
         onWebViewCreated: (controller) {
           globals.webViewController = controller;
